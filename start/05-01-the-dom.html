@@ -20,7 +20,12 @@
   </header>
   
   <script>
-    
+    const header = document.querySelector('#header');
+    const nav = header.childNodes [1];
+    const list = nav.childNodes [1];
+    const firtsListItem = list.childNodes [1];
+    const fistLink = firtsListItem.childNodes [0];
+    console.log(fistLink.childNodes);
   </script>
 </body>
 
